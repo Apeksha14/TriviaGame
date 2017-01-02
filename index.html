@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>TRIVIA</title>
+	<link rel="icon" type="text/image" href="http://85ba988189a91079da32-e82bfe2fb47c3e0e09486fab21221afc.r64.cf5.rackcdn.com//insiders/lounge/games/trivia-image.jpg">
+
+	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai:900" rel="stylesheet">
+	<!-- Include Bootstrap CSS -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Include Style CSS -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+	
+  		
+
+	<div class="container">
+		
+
+		<div id="main">
+
+			<h1><strong>TRIVIA!! TRIVIA!!</strong></h1>
+			<div id="maindiv">
+
+  				<button type="button" class="btn btn-primary btn-lg hvr-grow-shadow" id="start">START</button>
+	
+			</div>
+
+			<div class="timediv" style="display:none">
+
+				<p>Time Remaining : <span id="time" ></span></p>
+
+			</div> 
+
+			<div id="formdiv1" style="display:none;">
+
+				Which of these Marvel artifacts is not one of the six infinity stones as revealed in ‘GUARDIANS OF THE GALAXY’?<br><br>
+				
+  				<button class="options hvr-grow-shadow " value="aether">The Aether</button><br>
+  				<button class="options hvr-grow-shadow " value="arc"> The Arc Reactor</button><br>
+  				<button class=" options hvr-grow-shadow " value="tesseract">The Tesseract</button><br>
+  				<button class=" options hvr-grow-shadow " value="orb"> The Orb</button><br>
+				
+  			</div>
+
+  			<div id="formdiv2" style="display:none;" >
+
+				Which of these heroes from ‘CAPTAIN AMERICA: THE FIRST AVENGER’ returned as a villain in ‘CAPTAIN AMERICA: THE WINTER SOLDIER’?<br><br>				
+  				<button class="options hvr-grow-shadow " value="nick">Nick Fury</button><br>
+  				<button class="options hvr-grow-shadow " value="peggy"> Peggy Carter</button><br>
+  				<button class="options hvr-grow-shadow " value="bucky"> Bucky Barnes</button><br>
+  				<button class=" options hvr-grow-shadow " value="erskine">Dr. Erskine </button><br>
+
+			</div>
+
+			<div id="formdiv3"  style="display:none;">
+
+				This is the name of the enormous space station where the collector housed his collection in ‘GUARDIANS OF THE GALAXY’ <br><br>
+  		
+  				<button class="options hvr-grow-shadow " value="know">	Knowhere</button><br>
+  				<button class="options hvr-grow-shadow " value="some">Somewhere</button><br>
+  				<button class="options hvr-grow-shadow " value="any">	Anywhere</button><br>
+  				<button class="options hvr-grow-shadow " value="over">	Overthere </button><br>
+ 			
+ 			</div>
+
+			<div id="formdiv4" style="display:none;">
+
+				In 2018, this heroine is set to be the star of the first solo, female-driven marvel studios film?<br><br>
+				
+				<button class="options hvr-grow-shadow " value="blackwidow">Black Widow</button><br>
+  				<button class="options hvr-grow-shadow " value="shehulk">She-Hulk</button><br>
+  				<button class="options hvr-grow-shadow " value="scarlet">Scarlet Witch</button><br>
+  				<button class="options hvr-grow-shadow " value="cmarvel">Captain Marvel</button><br>
+			
+			</div>
+
+			<div id="formdiv5" style="display:none;">
+
+				Black Widow is a key player in ‘AVENGERS: AGE OF ULTRON’ what marvel film marked her first appearance?<br><br>
+				
+				<button class="options hvr-grow-shadow " value="ironman">Iron Man 2</button><br>
+  				<button class="options hvr-grow-shadow " value="avengers"> The Avengers</button><br>
+  				<button class="options hvr-grow-shadow " value="ca"> Captain America: The First Avenger</button><br>
+  				<button class="options hvr-grow-shadow " value="hulk"> The Incredible Hulk</button><br>
+			
+			</div>
+
+			<div id="formdiv6" style="display:none;">
+
+				Which of these actors has not portrayed Bruce Banner/The Hulk in a marvel movie?<br><br>
+				
+				<button class="options hvr-grow-shadow " value="edward">Edward Norton</button><br>
+  				<button class="options hvr-grow-shadow " value="eric"> Eric Bana</button><br>
+  				<button class="options hvr-grow-shadow " value="matt"> Matt Damon</button><br>
+  				<button class="options hvr-grow-shadow " value="mark">  Mark Ruffalo</button><br>
+			
+			</div>
+
+			<div id="formdiv7" style="display:none;">
+
+				Which of these supporting characters from the THOR film series has also appeared in the ‘AGENTS OF S.H.I.E.L.D.’ tv series?<br><br>
+				
+				<button class="options hvr-grow-shadow " value="odin"> Odin</button><br>
+  				<button class="options hvr-grow-shadow " value="loki"> Loki</button><br>
+  				<button class="options hvr-grow-shadow " value="volstagg"> Volstagg</button><br>
+  				<button class="options hvr-grow-shadow " value="sif">  Sif</button><br>
+			
+			</div>
+
+			<div id="formdiv8" style="display:none;">
+
+				This villain had a small cameo in 2012’s ‘THE AVENGERS’ before appearing in a larger role in 2014’s ‘GUARDIANS OF THE GALAXY’<br><br>
+				
+				<button class="options hvr-grow-shadow " value="loki"> Loki</button><br>
+  				<button class="options hvr-grow-shadow " value="thanos"> Thanos</button><br>
+  				<button class="options hvr-grow-shadow " value="ronan"> Ronan</button><br>
+  				<button class="options hvr-grow-shadow " value="collector">  The Collector</button><br>
+			
+			</div>
+
+			<div id="formdiv9" style="display:none;">
+
+				‘42’ star Chadwick Boseman will be playing this iconic hero in 2016’s ‘CAPTAIN AMERICA: CIVIL WAR’<br><br>
+				
+				<button class="options hvr-grow-shadow " value="panther"> Black Panther</button><br>
+  				<button class="options hvr-grow-shadow " value="bluemarvel">Blue Marvel</button><br>
+  				<button class="options hvr-grow-shadow " value="falcon"> The Falcon</button><br>
+  				<button class="options hvr-grow-shadow " value="luke"> Luke Cage</button><br>
+			
+			</div>
+
+			<div id="formdiv10" style="display:none;">
+
+				Who provided the voice of groot in the movie 'GUARDIANS OF THE GALAXY'?<br><br>
+				
+				<button class="options hvr-grow-shadow " value="vin"> Vin Diesel</button><br>
+  				<button class="options hvr-grow-shadow " value="andy"> Andy Serkis</button><br>
+  				<button class="options hvr-grow-shadow " value="james"> James Earl Jones</button><br>
+  				<button class="options hvr-grow-shadow " value="bradley">  Bradley Cooper</button><br>
+			
+			</div>
+
+			<div id="answer" style="display:none;">
+
+				<p><span id="yes"></span></p>
+				<p><span id="no"></span></p>
+				<p><span id="timeout"></span></p>
+				<p><span id="noans"></span></p>
+				<img id="ans1">
+				
+			</div>
+
+			<div id="formdiv11" style="display:none;">
+
+				All Done,Here is how you did!<br><br>
+				
+				<p>Correct Answers: <span id="correct"></span></p>
+				<p>Wrong Answers: <span id="wrong"></span></p>
+				<p>Unanswered: <span id="unans"></span></p>
+				<button id="startover" class="options hvr-grow-shadow ">  Do you want to Start Over?</button><br>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	
+
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+	 <!-- Include game.js -->
+
+	<script src="assets/javascript/app.js" type="text/javascript"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+</html>
