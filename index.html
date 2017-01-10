@@ -10,6 +10,9 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- Include Style CSS -->
@@ -26,11 +29,16 @@
 		
 
 		<div id="main">
+			
+			<div id="header">
 
-			<h1><strong>TRIVIA!! TRIVIA!!</strong></h1>
+				<h1><a href="#">TRIVIA!! TRIVIA!!</a></h1>
+
+			</div>
+
 			<div id="maindiv">
 
-  				<button type="button" class="btn btn-primary btn-lg hvr-grow-shadow" id="start">START</button>
+  				<a href="#" class="btn btn-sm animated-button thar-three" id="start">START</a>
 	
 			</div>
 
@@ -40,121 +48,122 @@
 
 			</div> 
 
-			<div id="formdiv1" style="display:none;">
+			<div id="formdiv1" class="cl-effect" style="display:none;">
 
 				Which of these Marvel artifacts is not one of the six infinity stones as revealed in ‘GUARDIANS OF THE GALAXY’?<br><br>
 				
-  				<button class="options hvr-grow-shadow " value="aether">The Aether</button><br>
-  				<button class="options hvr-grow-shadow " value="arc"> The Arc Reactor</button><br>
-  				<button class=" options hvr-grow-shadow " value="tesseract">The Tesseract</button><br>
-  				<button class=" options hvr-grow-shadow " value="orb"> The Orb</button><br>
+
+  				<button id="option1" class="options hvr-grow-shadow " value="aether"><span data-hover="The Aether">The Aether</span></button> 
+  				<button id="option2" class="options hvr-grow-shadow " value="arc"> <span data-hover="The Arc Reactor">The Arc Reactor</span></button><br><br>
+  				<button id="option3"  class=" options hvr-grow-shadow " value="tesseract"><span data-hover="The Tesseract">The Tesseract</span></button>
+  				<button id="option4" class=" options hvr-grow-shadow " value="orb"><span data-hover="The Orb"> The Orb</span></button><br>
 				
   			</div>
 
-  			<div id="formdiv2" style="display:none;" >
+  			<div id="formdiv2" class="cl-effect" style="display:none;" >
 
 				Which of these heroes from ‘CAPTAIN AMERICA: THE FIRST AVENGER’ returned as a villain in ‘CAPTAIN AMERICA: THE WINTER SOLDIER’?<br><br>				
-  				<button class="options hvr-grow-shadow " value="nick">Nick Fury</button><br>
-  				<button class="options hvr-grow-shadow " value="peggy"> Peggy Carter</button><br>
-  				<button class="options hvr-grow-shadow " value="bucky"> Bucky Barnes</button><br>
-  				<button class=" options hvr-grow-shadow " value="erskine">Dr. Erskine </button><br>
+  				<button id="option5" class="options hvr-grow-shadow " value="nick"><span data-hover="Nick Fury">Nick Fury</span></button>
+  				<button id="option6" class="options hvr-grow-shadow " value="peggy"><span data-hover="Peggy Carter"> Peggy Carter</span></button><br><br>
+  				<button id="option7" class="options hvr-grow-shadow " value="bucky"> <span data-hover="Bucky Barnes">Bucky Barnes</span></button>
+  				<button id="option8" class=" options hvr-grow-shadow " value="erskine"><span data-hover="Dr. Erskine">Dr. Erskine</span> </button><br>
 
 			</div>
 
-			<div id="formdiv3"  style="display:none;">
+			<div id="formdiv3" class="cl-effect" style="display:none;">
 
 				This is the name of the enormous space station where the collector housed his collection in ‘GUARDIANS OF THE GALAXY’ <br><br>
   		
-  				<button class="options hvr-grow-shadow " value="know">	Knowhere</button><br>
-  				<button class="options hvr-grow-shadow " value="some">Somewhere</button><br>
-  				<button class="options hvr-grow-shadow " value="any">	Anywhere</button><br>
-  				<button class="options hvr-grow-shadow " value="over">	Overthere </button><br>
+  				<button id="option9" class="options hvr-grow-shadow " value="know"><span data-hover="Knowhere">	Knowhere</span></button>
+  				<button id="option10" class="options hvr-grow-shadow " value="some"><span data-hover="Somewhere">Somewhere</span></button><br><br>
+  				<button id="option11" class="options hvr-grow-shadow " value="any"><span data-hover="Anywhere">	Anywhere</span></button>
+  				<button id="option12" class="options hvr-grow-shadow " value="over"><span data-hover="Overthere">	Overthere </span></button><br>
  			
  			</div>
 
-			<div id="formdiv4" style="display:none;">
+			<div id="formdiv4" class="cl-effect" style="display:none;">
 
 				In 2018, this heroine is set to be the star of the first solo, female-driven marvel studios film?<br><br>
 				
-				<button class="options hvr-grow-shadow " value="blackwidow">Black Widow</button><br>
-  				<button class="options hvr-grow-shadow " value="shehulk">She-Hulk</button><br>
-  				<button class="options hvr-grow-shadow " value="scarlet">Scarlet Witch</button><br>
-  				<button class="options hvr-grow-shadow " value="cmarvel">Captain Marvel</button><br>
+				<button id="option13" class="options hvr-grow-shadow " value="blackwidow"><span data-hover="Black Widow">	Black Widow</span></button>
+  				<button id="option14" class="options hvr-grow-shadow " value="shehulk"><span data-hover="She-Hulk">	She-Hulk</span></button><br><br>
+  				<button id="option15" class="options hvr-grow-shadow " value="scarlet"><span data-hover="Scarlet Witch">	Scarlet Witch</span></button>
+  				<button id="option16" class="options hvr-grow-shadow " value="cmarvel"><span data-hover="Captain Marvel">	Captain Marvel</span></button><br>
 			
 			</div>
 
-			<div id="formdiv5" style="display:none;">
+			<div id="formdiv5" class="cl-effect" style="display:none;">
 
 				Black Widow is a key player in ‘AVENGERS: AGE OF ULTRON’ what marvel film marked her first appearance?<br><br>
 				
-				<button class="options hvr-grow-shadow " value="ironman">Iron Man 2</button><br>
-  				<button class="options hvr-grow-shadow " value="avengers"> The Avengers</button><br>
-  				<button class="options hvr-grow-shadow " value="ca"> Captain America: The First Avenger</button><br>
-  				<button class="options hvr-grow-shadow " value="hulk"> The Incredible Hulk</button><br>
+				<button id="option17" class="options hvr-grow-shadow " value="ironman"><span data-hover="Iron Man 2">Iron Man 2</span></button>
+  				<button id="option18" class="options hvr-grow-shadow " value="avengers"> <span data-hover="The Avengers">The Avengers</span></button><br><br>
+  				<button id="option19" class="options hvr-grow-shadow " value="ca"><span data-hover="Captain America: The First Avenger"> Captain America: The First Avenger</span></button>
+  				<button id="option20" class="options hvr-grow-shadow " value="hulk"> <span data-hover="The Incredible Hulk">The Incredible Hulk</span></button><br>
 			
 			</div>
 
-			<div id="formdiv6" style="display:none;">
+			<div id="formdiv6" class="cl-effect" style="display:none;">
 
 				Which of these actors has not portrayed Bruce Banner/The Hulk in a marvel movie?<br><br>
 				
-				<button class="options hvr-grow-shadow " value="edward">Edward Norton</button><br>
-  				<button class="options hvr-grow-shadow " value="eric"> Eric Bana</button><br>
-  				<button class="options hvr-grow-shadow " value="matt"> Matt Damon</button><br>
-  				<button class="options hvr-grow-shadow " value="mark">  Mark Ruffalo</button><br>
+				<button id="option21" class="options hvr-grow-shadow " value="edward"><span data-hover="Edward Norton">Edward Norton</span></button>
+  				<button id="option21" class="options hvr-grow-shadow " value="eric"> <span data-hover="Eric Bana">Eric Bana</span></button><br><br>
+  				<button id="option22" class="options hvr-grow-shadow " value="matt"> <span data-hover="Matt Damon">Matt Damon</span></button>
+  				<button id="option23" class="options hvr-grow-shadow " value="mark">  <span data-hover="Mark Ruffalo">Mark Ruffalo</span></button><br>
 			
 			</div>
 
-			<div id="formdiv7" style="display:none;">
+			<div id="formdiv7" class="cl-effect" style="display:none;">
 
 				Which of these supporting characters from the THOR film series has also appeared in the ‘AGENTS OF S.H.I.E.L.D.’ tv series?<br><br>
 				
-				<button class="options hvr-grow-shadow " value="odin"> Odin</button><br>
-  				<button class="options hvr-grow-shadow " value="loki"> Loki</button><br>
-  				<button class="options hvr-grow-shadow " value="volstagg"> Volstagg</button><br>
-  				<button class="options hvr-grow-shadow " value="sif">  Sif</button><br>
+				<button id="option24" class="options hvr-grow-shadow " value="odin"><span data-hover="Odin"> Odin</span></button>
+  				<button id="option25" class="options hvr-grow-shadow " value="loki"><span data-hover="Loki"> Loki</span></button><br><br>
+  				<button id="option26" class="options hvr-grow-shadow " value="volstagg"><span data-hover="Volstagg"> Volstagg</span></button>
+  				<button id="option27" class="options hvr-grow-shadow " value="sif"><span data-hover="Sif">  Sif</span></button><br>
 			
 			</div>
 
-			<div id="formdiv8" style="display:none;">
+			<div id="formdiv8" class="cl-effect" style="display:none;">
 
 				This villain had a small cameo in 2012’s ‘THE AVENGERS’ before appearing in a larger role in 2014’s ‘GUARDIANS OF THE GALAXY’<br><br>
 				
-				<button class="options hvr-grow-shadow " value="loki"> Loki</button><br>
-  				<button class="options hvr-grow-shadow " value="thanos"> Thanos</button><br>
-  				<button class="options hvr-grow-shadow " value="ronan"> Ronan</button><br>
-  				<button class="options hvr-grow-shadow " value="collector">  The Collector</button><br>
+				<button id="option28" class="options hvr-grow-shadow " value="loki"><span data-hover="Loki"> Loki</span></button>
+  				<button id="option29" class="options hvr-grow-shadow " value="thanos"> <span data-hover="Thanos">Thanos</span></button><br><br> 
+  				<button id="option30" class="options hvr-grow-shadow " value="ronan"><span data-hover="Ronan"> Ronan</span></button>
+  				<button id="option31" class="options hvr-grow-shadow " value="collector"> <span data-hover="The Collector"> The Collector</span></button><br>
 			
 			</div>
 
-			<div id="formdiv9" style="display:none;">
+			<div id="formdiv9" class="cl-effect" style="display:none;">
 
 				‘42’ star Chadwick Boseman will be playing this iconic hero in 2016’s ‘CAPTAIN AMERICA: CIVIL WAR’<br><br>
 				
-				<button class="options hvr-grow-shadow " value="panther"> Black Panther</button><br>
-  				<button class="options hvr-grow-shadow " value="bluemarvel">Blue Marvel</button><br>
-  				<button class="options hvr-grow-shadow " value="falcon"> The Falcon</button><br>
-  				<button class="options hvr-grow-shadow " value="luke"> Luke Cage</button><br>
+				<button id="option32" class="options hvr-grow-shadow " value="panther"><span data-hover="Black Panther"> Black Panther</span></button>
+  				<button id="option33" class="options hvr-grow-shadow " value="bluemarvel"><span data-hover="Blue Marvel">Blue Marvel</span></button><br><br>
+  				<button id="option34" class="options hvr-grow-shadow " value="falcon"> <span data-hover="The Falcon">The Falcon</span></button>
+  				<button id="option35" class="options hvr-grow-shadow " value="luke"><span data-hover="Luke Cage"> Luke Cage</span></button><br>
 			
 			</div>
 
-			<div id="formdiv10" style="display:none;">
+			<div id="formdiv10" class="cl-effect" style="display:none;">
 
 				Who provided the voice of groot in the movie 'GUARDIANS OF THE GALAXY'?<br><br>
 				
-				<button class="options hvr-grow-shadow " value="vin"> Vin Diesel</button><br>
-  				<button class="options hvr-grow-shadow " value="andy"> Andy Serkis</button><br>
-  				<button class="options hvr-grow-shadow " value="james"> James Earl Jones</button><br>
-  				<button class="options hvr-grow-shadow " value="bradley">  Bradley Cooper</button><br>
+				<button id="option36" class="options hvr-grow-shadow " value="vin"><span data-hover="Vin Diesel"> Vin Diesel</span></button>
+  				<button id="option37" class="options hvr-grow-shadow " value="andy"><span data-hover="Andy Serkis"> Andy Serkis</span></button><br><br>
+  				<button id="option38" class="options hvr-grow-shadow " value="james"> <span data-hover="James Earl Jones">James Earl Jones</span></button>
+  				<button id="option39" class="options hvr-grow-shadow " value="bradley"><span data-hover="Bradley Cooper">  Bradley Cooper</span></button><br>
 			
 			</div>
 
 			<div id="answer" style="display:none;">
 
-				<p><span id="yes"></span></p>
-				<p><span id="no"></span></p>
-				<p><span id="timeout"></span></p>
-				<p><span id="noans"></span></p>
+				<p><span id="yes"></span>
+				<span id="no"></span>
+				<span id="timeout"></span>
+				<span id="noans"></span></p>
 				<img id="ans1">
 				
 			</div>
